@@ -1,0 +1,46 @@
+.container{
+    background:#00aa55;
+    padding:10px;
+    display:grid;
+    grid-template-areas:
+    "header header header"
+    "sidebar1 main sidebar2"
+    "footer footer footer";
+    grid-gap:25px;
+    
+    
+    
+    
+
+}
+.one{
+    background: maroon;
+    color:#fff;
+    padding:10px;
+    height:150px;
+    grid-area:sidebar1;
+}
+.two{
+    background:rgb(226, 9, 9);
+    color:#fff;
+    padding:10px;
+    height:150px;
+    grid-area:main:
+}
+.three{
+    background:rgb(6, 241, 84);
+    color:#fff;
+    padding:10px;
+    height:150px;
+    grid-area:sidebar2;
+}
+.header{
+    background:blue;
+    height:60px;
+    grid-area: header;
+}
+.footer{
+    background:blue;
+    height:60px;
+    grid-area:footer;
+}
